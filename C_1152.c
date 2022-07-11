@@ -2,12 +2,12 @@
 
 int main(void)
 {
-  char str[1000000];
+  char str[1000001];
   int  i;
   int count;
   i = 0;
   count = 0;
-  scanf("%[^\n]s", str);
+  scanf("%1000000[^\n]s", str);
     
   while (str[i] != '\0')
   {
